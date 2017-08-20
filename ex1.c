@@ -68,8 +68,10 @@ int main(void)
         exit(EXIT_FAILURE);
     }
 
-    circle(buff, 160, 120, 100, CORAMARELO);
-    textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");
+    /* circle(buff, 160, 120, 100, CORAMARELO);
+    textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo."); */
+    
+    triangle(buff, 100, 100, 120, 120, 160, 160, CORVERDE); 
 
     save_bitmap(IMAGENAME, buff, pal);
     destroy_bitmap(buff);
