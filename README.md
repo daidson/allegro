@@ -5,5 +5,5 @@ Course: Discrete mathematics
 Professor: Ruben Carlo Benante
 Student: Daidson Fonseca Alves
 
-#License
+# License
 GNU/GPL 2.0
