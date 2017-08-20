@@ -85,7 +85,7 @@ int main(void)
     BITMAP *buff;
     PALETTE pal;
 
-    if(instal_allegro(SYSTEM_NONE, &errno, atexit)!=0)
+    if(install_allegro(SYSTEM_NONE, &errno, atexit)!=0)
         exit(EXIT_FAILURE);
 
     set_color_depth(16);
