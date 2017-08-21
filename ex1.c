@@ -81,7 +81,7 @@ int main(void)
     line(buff, 130, 130, 150, 150, makecol(255, 0, 0));
     line(buff, 130, 130, 170, 130, makecol(255, 0, 0));
     line(buff, 170, 130, 150, 150, makecol(255, 0, 0));
-    floodfill(buff, 150, 140, makecol(255, 255, 0));
+    floodfill(buff, 150, 140, makecol(255, 255, 255));
     triangle(buff, 200, 200, 200, 220, 220, 210, makecol(213, 79, 40));
 
     save_bitmap(IMAGENAME, buff, pal);
