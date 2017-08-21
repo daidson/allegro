@@ -74,7 +74,15 @@ int main(void)
 /*    triangle(buff, 10, 10, 10, 50, 50, 50, CORVERDE);
     triangle(buff, 50, 50, 50, 90, 90, 90, CORVERDE); */
 
-    triangle(buff, 1, 1, 1, 1.5, 5, 5, CORVERDE);
+    circle(buff, 20, 20, 10, CORBRANCO);
+    circlefill(buff, 50, 50, 25, CORCINZA);
+    rect(buff, 70, 70, 90, 90, CORAZUL);
+    rectfill(buff, 100, 100, 120, 120, CORVERDE);
+    line(buff, 130, 130, 150, 150, makecol(255, 0, 0));
+    line(buff, 130, 130, 170, 130, makecol(255, 0, 0));
+    line(buff, 170, 130, 150, 150, makecol(255, 0, 0));
+    floodfill(buff, 150, 140, makecol(255, 255, 0));
+    triangle(buff, 200, 200, 200, 220, 220, 210, makecol(213, 79, 40));
 
     save_bitmap(IMAGENAME, buff, pal);
     destroy_bitmap(buff);
