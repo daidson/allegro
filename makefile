@@ -36,3 +36,4 @@ LDLIBS = -Wl,--defsym,BUILD_$(DEFSYM)=0 -lm -lgmp `allegro-config --cflags -libs
 
 clean:
 	rm -f *.x *.o errors.err
+
